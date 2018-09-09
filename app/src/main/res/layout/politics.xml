@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.First female chief Minister of Delhi"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p1">
+
+        <RadioButton android:id="@+id/one1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sila Dixit" />
+
+        <RadioButton android:id="@+id/one2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobha Jha" />
+
+        <RadioButton android:id="@+id/one3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sushma Swaraj"/>
+
+        <RadioButton android:id="@+id/one4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabitri Singhal"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_below="@id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Only politician to have been MLA,MP,Mayor at the same time"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p2">
+
+        <RadioButton android:id="@+id/two1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saroj Pandey" />
+
+        <RadioButton android:id="@+id/two2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raman Singh" />
+
+        <RadioButton android:id="@+id/two3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajeet Jogi"/>
+
+        <RadioButton android:id="@+id/two4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arun Jaitley"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_below="@id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Highest number of Lok Sabha victories"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p3">
+
+        <RadioButton android:id="@+id/three1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vasu Dev Acharya" />
+
+        <RadioButton android:id="@+id/three2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul Bihari Bajpayee" />
+
+        <RadioButton android:id="@+id/three3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sushma Swaraj"/>
+
+        <RadioButton android:id="@+id/three4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indrajit Gupta"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_below="@id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Current PM of Maritius"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p4">
+
+        <RadioButton android:id="@+id/four1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arvind Jagannath" />
+
+        <RadioButton android:id="@+id/four2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prashanth Chowdhury" />
+
+        <RadioButton android:id="@+id/four3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naveen Ramghulan"/>
+
+        <RadioButton android:id="@+id/four4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non of the above"/>
+    </RadioGroup>
+
+            <TextView
+                android:id="@+id/p5"
+                android:layout_below="@id/op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Chairman of current finance commission"
+                android:textSize="20dp"/>
+
+            <RadioGroup
+                android:id="@+id/op5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/p5">
+
+                <RadioButton android:id="@+id/five1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajeev Maharishi" />
+
+                <RadioButton android:id="@+id/five2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NK Singh" />
+
+                <RadioButton android:id="@+id/five3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sasikant Shah"/>
+
+                <RadioButton android:id="@+id/five4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Raghuram Rajan"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_below="@id/op5"
+                android:text="SUBMIT"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

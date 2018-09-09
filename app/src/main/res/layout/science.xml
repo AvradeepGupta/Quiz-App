@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.This expriment proves Quantum Entanglement"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s1">
+
+        <RadioButton android:id="@+id/one1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penrose Model" />
+
+        <RadioButton android:id="@+id/one2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young's Double Slit Experiment" />
+
+        <RadioButton android:id="@+id/one3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photoetric Discharge"/>
+
+        <RadioButton android:id="@+id/one4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wave Mechanical Model"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_below="@id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.This man showed three possible conclusions of the universe"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s2">
+
+        <RadioButton android:id="@+id/two1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young" />
+
+        <RadioButton android:id="@+id/two2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albert Einstein" />
+
+        <RadioButton android:id="@+id/two3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stephen Hawking"/>
+
+        <RadioButton android:id="@+id/two4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friedmann"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_below="@id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.This man believed that light is made up of particles of various size"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s3">
+
+        <RadioButton android:id="@+id/three1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isaac Newton" />
+
+        <RadioButton android:id="@+id/three2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albert Einstein" />
+
+        <RadioButton android:id="@+id/three3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young"/>
+
+        <RadioButton android:id="@+id/three4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ernest Rutherford"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_below="@id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.This animal is very scientific"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s4">
+
+        <RadioButton android:id="@+id/four1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog" />
+
+        <RadioButton android:id="@+id/four2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bats" />
+
+        <RadioButton android:id="@+id/four3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat"/>
+
+        <RadioButton android:id="@+id/four4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magpie"/>
+    </RadioGroup>
+
+            <TextView
+                android:id="@+id/s5"
+                android:layout_below="@id/op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Author of the book cosmos"
+                android:textSize="20dp"/>
+
+            <RadioGroup
+                android:id="@+id/op5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/s5">
+
+                <RadioButton android:id="@+id/five1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lucy Hawking" />
+
+                <RadioButton android:id="@+id/five2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stephen Hawking" />
+
+                <RadioButton android:id="@+id/five3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carl Sagan"/>
+
+                <RadioButton android:id="@+id/five4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roger Penrose"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_below="@id/op5"
+                android:text="SUBMIT"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

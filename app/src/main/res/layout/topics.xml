@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCIENCE"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/password"/>
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTORY"
+            android:layout_margin="5dp"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/password"/>
+
+        <Button
+            android:id="@+id/politics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POLITICS"
+            android:layout_margin="5dp"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/password"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@id/ll"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/highscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HIGH SCORE"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/logout"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
